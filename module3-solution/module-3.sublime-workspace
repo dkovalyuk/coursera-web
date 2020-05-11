@@ -1,0 +1,396 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vi",
+				"visible-lg"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"pa",
+				"padding-left\tproperty"
+			],
+			[
+				"padding-",
+				"padding-right\tproperty"
+			],
+			[
+				"ma",
+				"margin\tproperty"
+			],
+			[
+				"cl",
+				"clear\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"clo",
+				"color\tproperty"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"ch",
+				"checked"
+			],
+			[
+				"ga",
+				"Gallery"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"t",
+				"title\tTag"
+			],
+			[
+				"l",
+				"li\tTag"
+			],
+			[
+				"he",
+				"header\tTag"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 8253,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n    <title>David Chu's China Bistro</title>\n    <link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n    <link rel=\"stylesheet\" href=\"css/styles.css\">\n    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>\n    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>\n  </head>\n<body>\n  <header>\n    <nav id=\"header-nav\" class=\"navbar navbar-default\">\n      \n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <a href=\"index.html\" class=\"pull-left visible-md visible-lg\">\n            <div id=\"logo-img\"></div>\n          </a>\n\n          <div class=\"navbar-brand\">\n            <a href=\"index.html\"><h1>David Chu's China Bistro</h1></a>\n            <p>\n              <img src=\"images/star-k-logo.png\" alt=\"Kosher certification\">\n              <span>Kosher Certified</span>\n            </p>\n          </div>\n\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#collapsable-nav\" aria-expanded=\"false\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n        </div>\n        \n        <div id=\"collapsable-nav\" class=\"collapse navbar-collapse\">\n           <ul id=\"nav-list\" class=\"nav navbar-nav navbar-right\">\n            <li class=\"visible-xs active\">\n              <a href=\"index.html\">\n                <span class=\"glyphicon glyphicon-home\"></span> Home</a>\n            </li>\n            <li>\n              <a href=\"menu-categories.html\">\n                <span class=\"glyphicon glyphicon-cutlery\"></span><br class=\"hidden-xs\"> Menu</a>\n            </li>\n            <li>\n              <a href=\"#\">\n                <span class=\"glyphicon glyphicon-info-sign\"></span><br class=\"hidden-xs\"> About</a>\n            </li>\n            <li>\n              <a href=\"#\">\n                <span class=\"glyphicon glyphicon-certificate\"></span><br class=\"hidden-xs\"> Awards</a>\n            </li>\n            <li id=\"phone\" class=\"hidden-xs\">\n              <a href=\"tel:410-602-5008\">\n                <span>410-602-5008</span></a><div>* We Deliver</div>\n            </li>\n          </ul><!-- #nav-list -->\n        </div><!-- .collapse .navbar-collapse -->\n      </div><!-- .container -->\n    </nav><!-- #header-nav -->\n  </header>\n\n  <div id=\"call-btn\" class=\"visible-xs\">\n    <a class=\"btn\" href=\"tel:410-602-5008\">\n    <span class=\"glyphicon glyphicon-earphone\"></span>\n    410-602-5008\n    </a>\n  </div>\n  <div id=\"xs-deliver\" class=\"text-center visible-xs\">* We Deliver</div>\n\n  <div id=\"main-content\" class=\"container\">\n    <div class=\"jumbotron\">\n      <img src=\"images/jumbotron_768.jpg\" alt=\"Picture of restaurant\" class=\"img-responsive visible-xs\">\n    </div>\n\n    <div id=\"home-tiles\" class=\"row\">\n      <div class=\"col-md-4 col-sm-6 col-xs-12\">\n        <a href=\"menu-categories.html\"><div id=\"menu-tile\"><span>menu</span></div></a>\n      </div>\n      <div class=\"col-md-4 col-sm-6 col-xs-12\">\n        <a href=\"single-category.html\"><div id=\"specials-tile\"><span>specials</span></div></a>\n      </div>\n      <div class=\"col-md-4 col-sm-12 col-xs-12\">\n        <a href=\"https://www.google.com/maps/place/David+Chu's+China+Bistro/@39.3635874,-76.7138622,17z/data=!4m6!1m3!3m2!1s0x89c81a14e7817803:0xab20a0e99daa17ea!2sDavid+Chu's+China+Bistro!3m1!1s0x89c81a14e7817803:0xab20a0e99daa17ea\" target=\"_blank\">\n          <div id=\"map-tile\">\n            <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3084.675372390488!2d-76.71386218529199!3d39.3635874269356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c81a14e7817803%3A0xab20a0e99daa17ea!2sDavid+Chu&#39;s+China+Bistro!5e0!3m2!1sen!2sus!4v1452824864156\" width=\"100%\" height=\"250\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>\n            <span>map</span>\n          </div>\n        </a>\n      </div>\n    </div><!-- End of #home-tiles -->\n  </div><!-- End of #main-content -->\n\n  <footer class=\"panel-footer\">\n    <div class=\"container\">\n      <div class=\"row\">\n        <section id=\"hours\" class=\"col-sm-4\">\n          <span>Hours:</span><br>\n          Sun-Thurs: 11:15am - 10:00pm<br>\n          Fri: 11:15am - 2:30pm<br>\n          Saturday Closed\n          <hr class=\"visible-xs\">\n        </section>\n        <section id=\"address\" class=\"col-sm-4\">\n          <span>Address:</span><br>\n          7105 Reisterstown Road<br>\n          Baltimore, MD 21215\n          <p>* Delivery area within 3-4 miles, with minimum order of $20 plus $3 charge for all deliveries.</p>\n          <hr class=\"visible-xs\">\n        </section>\n        <section id=\"testimonials\" class=\"col-sm-4\">\n          <p>\"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!\"</p>\n          <p>\"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!\"</p>\n        </section>\n      </div>\n      <div class=\"text-center\">&copy; Copyright David Chu's China Bistro 2016</div>\n    </div>\n  </footer>\n\n  <!-- jQuery (Bootstrap JS plugins depend on it) -->\n  <script src=\"js/jquery-2.1.4.min.js\"></script>\n  <script src=\"js/bootstrap.min.js\"></script>\n  <script src=\"js/script.js\"></script>\n</body>\n</html>\n",
+			"file": "/D/coursera/HTML, CSS, and Javascript for Web Developers/examples/Lecture39/after/index.html",
+			"file_size": 5512,
+			"file_write_time": 132233647860000000,
+			"settings":
+			{
+				"buffer_size": 5519,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 157.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/github/module3-solution",
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/github/module3-solution/css"
+	],
+	"file_history":
+	[
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/github/module3-solution/css/styles.css",
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/examples/Lecture36/after/index.html",
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/github/module3-solution/index.html",
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/examples/Lecture26/grid-after.html",
+		"/C/Users/Dima/Desktop/g.html",
+		"/C/Users/Dima/Desktop/multilock.html",
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/assignments/module-2/person-2/index.html",
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/assignments/module-2/person-2/module2-solution.css",
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/assignments/module-2/person-3/index.html",
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/assignments/module-2/person-3/sheet.css",
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/assignments/module-2/person-2/style.css",
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/github/module2-solution/css/styles.css",
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/github/module2-solution/index.html",
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/git-repisitory-lector/fullstack-course4-master/examples/Lecture24/responsive-after.html",
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/git-repisitory-lector/fullstack-course4-master/examples/Lecture24/responsive-before.html",
+		"/D/!KPI/Кафедра/nauka/gurtky/ahv/site/404.html",
+		"/D/!KPI/Кафедра/nauka/gurtky/ahv/site/index2.html",
+		"/D/!KPI/Кафедра/nauka/gurtky/ahv/site/index4.html",
+		"/D/coursera/HTML, CSS, and Javascript for Web Developers/github/test.html",
+		"/D/!KPI/Кафедра/nauka/gurtky/ahv/site/lecturers2.html",
+		"/D/!KPI/Кафедра/nauka/gurtky/ahv/site/gurtok.sublime-project",
+		"/D/coursera/Interactivity with JavaScript/projects/04-validation/js/shipping-my.js",
+		"/D/coursera/Interactivity with JavaScript/projects/04-validation/js/shipping.js",
+		"/D/coursera/Interactivity with JavaScript/projects/04-validation/shipping.html",
+		"/C/Users/Dima/Desktop/1.html",
+		"/D/coursera/Interactivity with JavaScript/projects/04-validation/css/shipping.css",
+		"/C/Users/Dima/Desktop/test-3.html",
+		"/D/coursera/Interactivity with JavaScript/projects/02-galery/js/gallery.js",
+		"/D/coursera/Interactivity with JavaScript/projects/02-galery/gallery.html",
+		"/D/coursera/Interactivity with JavaScript/projects/02-galery/test2.html",
+		"/D/coursera/Interactivity with JavaScript/projects/02-galery/css/gallery.css",
+		"/D/coursera/Interactivity with JavaScript/projects/02-galery/gallery.css",
+		"/C/Users/Dima/Desktop/imc.html",
+		"/C/Users/Dima/Desktop/test-1.html",
+		"/C/Users/Dima/Desktop/prnewsio_186135.html",
+		"/D/MyDocs/Igor/Js/11111.js",
+		"/D/MyDocs/Igor/Js/22222.js",
+		"/C/Users/Dima/Desktop/zabudovnyk.com.ua-post-14558.html",
+		"/C/Users/Dima/Desktop/zabudovnyk.com.ua-post-14349.html",
+		"/D/MyDocs/Igor/html/flats-odessa.html",
+		"/D/MyDocs/Igor/Js/11111.html",
+		"/D/!KPI/Кафедра/nauka/konfer/AKIT/site-en/index.html",
+		"/C/Users/Dima/Desktop/3. Стальное литье_ почему технология остается популярной в 21 веке/3.21.html",
+		"/C/Users/Dima/Desktop/3. Стальное литье_ почему технология остается популярной в 21 веке/article.html",
+		"/C/Users/Dima/Desktop/dveri.html",
+		"/D/MyDocs/Igor/html/laba-1.html",
+		"/D/MyDocs/Igor/html/examen.html",
+		"/D/MyDocs/Igor/html/cottage.html",
+		"/C/Users/Dima/Desktop/zabudovnyk.com.ua-post-11026.html",
+		"/D/MyDocs/Igor/html/mrt.html",
+		"/D/MyDocs/Igor/html/class-4a.html",
+		"/D/MyDocs/Igor/html/html-labs.sublime-project",
+		"/D/MyDocs/Igor/html/class-4A",
+		"/C/Users/Dima/Desktop/rating-2019-PN",
+		"/D/MyDocs/Igor/html/laba-1",
+		"/C/Users/Dima/Desktop/tmp.html",
+		"/C/Users/Dima/Desktop/EDBOAccreditation.csv",
+		"/C/Users/Dima/Desktop/article-zabu",
+		"/C/Users/Dima/Desktop/25-11-2019-Осіпа.csv",
+		"/C/Users/Dima/Desktop/157028.html"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								705,
+								705
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/coursera/HTML, CSS, and Javascript for Web Developers/examples/Lecture39/after/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5519,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1649,
+								1659
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "module-3.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
